@@ -3,7 +3,10 @@ import * as express from 'express';
 export const expressApp = express();
 
 /* istanbul ignore next */
-expressApp.get('/', (req, res) => res.send('Hello World!'));
+expressApp.get('/', (req, res) => {
+  const response: HelloWorldResponse = { message: 'Hello World!' };
+  res.send(response);
+});
 
 /**
  * Start the express application.

@@ -21,7 +21,10 @@
       "#/*": [
         "test/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "types"
+    ],
   },
   "files": [
     "node_modules/@types/node/index.d.ts",
@@ -34,5 +37,6 @@
   "include": [
     "src/**/*.ts",
     "test/**/*.ts",
+    "types/**/*.d.ts"
   ]
 }
