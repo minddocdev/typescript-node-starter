@@ -22,7 +22,7 @@
     "starter"
   ],
   "author": "development@minddoc.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/minddocdev/typescript-node-starter/issues"
   },
