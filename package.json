@@ -1,0 +1,39 @@
+{
+  "name": "typescript-node-starter",
+  "version": "1.0.0",
+  "description": "A TypeScript Node skeleton project",
+  "main": "src/server.ts",
+  "scripts": {
+    "compile": "tsc",
+    "lint": "tslint --project .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minddocdev/typescript-node-starter.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "skeleton",
+    "starter"
+  ],
+  "author": "development@minddoc.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minddocdev/typescript-node-starter/issues"
+  },
+  "homepage": "https://github.com/minddocdev/typescript-node-starter#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/jest": "^24.0.11",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.15.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

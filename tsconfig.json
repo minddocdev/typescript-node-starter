@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "skipLibCheck": true,
+    "noEmit": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "#/*": [
+        "test/*"
+      ]
+    }
+  },
+  "files": [
+    "node_modules/@types/node/index.d.ts",
+    "node_modules/@types/jest/index.d.ts",
+    "node_modules/@types/express/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+  ],
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts",
+  ]
+}
