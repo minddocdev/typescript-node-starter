@@ -21,7 +21,7 @@ describe('app', () => {
     expect(consoleErrorSpy).not.toBeCalled();
   });
 
-  test('starts the app and stops with the error and version', () => {
+  test('starts the app and stops with the error', () => {
     const errorMessage = 'mocked error';
     jest.spyOn(expressApp, 'listen').mockImplementationOnce(
       (_: any, listeningListener: Function | undefined) => {
